@@ -152,12 +152,13 @@ body {
   .personname__textblock,
   .personname__textblock .light,
   .personname__textblock .dark {
-    font-size: 36px;
+    top: 75px;
+    font-size: 24px;
     color: #cdcdb8;
     z-index: 70;
   }
   .personname__light {
-    min-width: 302px;
+    min-width: 220px;
   }
 }
 .content__block {
@@ -213,21 +214,18 @@ body {
   .content__block {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
   }
   .content__column2:before {
-    top: 100px;
+    top: 90px;
   }
 
   .content__column2:after {
-    top: 30px;
+    top: 20px;
+    height: 50px;
   }
   .content__column2 {
-
-	padding: 0px 40px 0px 40px;
-	
- }
+    padding: 0px 40px 0px 40px;
+  }
 }
 
 .content__me {
@@ -293,8 +291,20 @@ blockquote:before {
 }
 @media screen and (max-width: 1150px) {
   .contact {
-    padding: 60px 0px 0px 0px;
+    padding: 40px 0px 30px 0px;
   }
+  .contact__link {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	
+ }
+ .contact__link img {
+	
+	padding: 0px 5px 0px 0px;
+	
+ }
+ 
+
 }
 .contact:before {
   content: "";
@@ -355,15 +365,16 @@ blockquote:before {
 }
 @media screen and (max-width: 1150px) {
   .content__box {
-    padding: 100px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
   }
   .content__column3 {
-	
-    padding: 0px 0px 0px 0px;
+    margin: 0px -30px 0px 0px;
   }
   .content__skills {
-	padding: 0px 0px 0px 0px;
- }
+    margin: 0px 0px 0px -30px;
+  }
 }
 .content__column3 {
   flex: 1 1 60%;
@@ -400,7 +411,7 @@ blockquote:before {
   padding: 0px 0px 0px 30px;
 }
 .skills ul li {
-  padding: 15px 0 15px 60px;
+  padding: 10px 0 10px 60px;
   background-image: url(../img/circle.png);
   background-repeat: no-repeat;
   background-position: left center;
@@ -467,13 +478,23 @@ blockquote:before {
   gap: 20px;
 }
 @media screen and (max-width: 1150px) {
-	.projects__block {
-		display: grid;
-	 
-		grid-template-columns: 1fr ;
-		gap: 20px;
-	 }
+  .projects__block {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .footer__language {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    padding: 0px 35px 0px 35px;
+  }
+  .content__code {
+	padding: 0px 0px 180px 0px;
  }
+}
 
 .projects__block-item {
 }
@@ -555,5 +576,5 @@ blockquote:before {
   padding: 0px 5px 0px 5px;
 }
 .footer__point {
-  padding: 0px 5px 0px 5px;
+  padding: 10px 5px 5px 5px;
 }
