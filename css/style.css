@@ -152,7 +152,7 @@ body {
   .personname__textblock,
   .personname__textblock .light,
   .personname__textblock .dark {
-    top: 75px;
+    top: 65px;
     font-size: 24px;
     color: #cdcdb8;
     z-index: 70;
