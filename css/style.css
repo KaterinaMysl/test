@@ -42,6 +42,7 @@ body {
   text-shadow: 1px 1px 2px #967879;
   font-size: 30px;
   position: relative;
+  -webkit-appearance: none;
 }
 .title:hover {
   color: #262121;
@@ -53,6 +54,7 @@ body {
 .medium {
   color: #752326;
   font-weight: 600;
+  -webkit-appearance: none;
 }
 .dark {
   color: #202020;
