@@ -74,7 +74,7 @@ body {
   justify-content: right;
   align-items: center;
   height: 100%;
-  padding: 0px 28px 0px 0px;
+  padding: 0px 28px 0px 28px;
 }
 .menu {
 }
@@ -157,7 +157,7 @@ body {
   .personname__textblock,
   .personname__textblock .light,
   .personname__textblock .dark {
-    top: 65px;
+    top: 70px;
     font-size: 24px;
     color: #cdcdb8;
     z-index: 70;
