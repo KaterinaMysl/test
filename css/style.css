@@ -22,7 +22,7 @@ body {
   height: 100%;
   line-height: 1.3;
   font-size: 17px;
-  color: #202020;
+  color: rgb(32, 32, 32);
   font-weight: 400;
   font-family: lato;
 }
@@ -38,11 +38,12 @@ body {
 .title {
   margin: 60px 0px 40px 0px;
   color: #752326;
+  -webkit-text-fill-color: rgb(117, 35, 38);
   letter-spacing: 15px;
   text-shadow: 1px 1px 2px #967879;
   font-size: 30px;
   position: relative;
-  -webkit-appearance: none;
+  
 }
 .title:hover {
   color: #262121;
@@ -54,7 +55,6 @@ body {
 .medium {
   color: #752326;
   font-weight: 600;
-  -webkit-appearance: none;
 }
 .dark {
   color: #202020;
@@ -85,6 +85,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.menu__list li:hover{
+	color:rgb(32, 32, 32);
+ }
 .menu__item {
   padding: 0px 10px 0px 10px;
 }
@@ -382,11 +385,23 @@ blockquote:before {
   flex: 1 1 60%;
   padding: 0px 30px 0px 0px;
 }
+.content__column3 a{
+	/* text-shadow: 1px 1px 6px #673a3a42; */
+ }
+.content__column3 a:hover{
+	color:rgb(179, 30, 35);
+ }
 .content__column4 {
   flex: 1 1 40%;
 }
-
+.education__bolt-title{
+	font-weight: 600;
+	padding: 0px 0px 20px 0px;
+}
 .content__education {
+}
+.education__medium-title{
+	padding: 0px 0px 10px 0px;
 }
 .education {
 }
@@ -407,6 +422,10 @@ blockquote:before {
 }
 .medium-title {
   padding: 20px 0px 15px 0px;
+}
+.education__dark{
+	font-weight: 400;
+	padding: 5px 0px 0px 0px;
 }
 
 .content__skills {
@@ -575,7 +594,7 @@ blockquote:before {
   padding: 0px 35px 0px 35px;
 }
 .footer__name {
-  padding: 0px 5px 0px 5px;
+  padding: 10px 5px 5px 5px;
 }
 .footer__point {
   padding: 10px 5px 5px 5px;
